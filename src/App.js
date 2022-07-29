@@ -11,11 +11,19 @@ import FieldFilter from "./FieldFilter";
 import './App.css';
 import e from 'cors';
 
-const LOGIN_API_URL = "http://localhost:8080/getLoginResult?";
-const OBJECT_API_URL = "http://localhost:8080/getObjectList?";
-const FIELD_API_URL = "http://localhost:8080/getQueryableFieldList?";
-const DATASEED_API_URL = "http://localhost:8080/seedData?";
 
+//http://mysecondawsapp-env.eba-idgthgnq.us-east-2.elasticbeanstalk.com
+
+
+//const LOGIN_API_URL = "http://localhost:8080/getLoginResult?";
+//const OBJECT_API_URL = "http://localhost:8080/getObjectList?";
+//const FIELD_API_URL = "http://localhost:8080/getQueryableFieldList?";
+//const DATASEED_API_URL = "http://localhost:8080/seedData?";
+
+const LOGIN_API_URL = "http://mysecondawsapp-env.eba-idgthgnq.us-east-2.elasticbeanstalk.com/getLoginResult?";
+const OBJECT_API_URL = "http://mysecondawsapp-env.eba-idgthgnq.us-east-2.elasticbeanstalk.com/getObjectList?";
+const FIELD_API_URL = "http://mysecondawsapp-env.eba-idgthgnq.us-east-2.elasticbeanstalk.com/getQueryableFieldList?";
+const DATASEED_API_URL = "http://mysecondawsapp-env.eba-idgthgnq.us-east-2.elasticbeanstalk.com/seedData?";
 
 function App() {
   //this.childRef= React.createRef();
